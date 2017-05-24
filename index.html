@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+  <title>Contact us</title>
+  <link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+<style>
+*{
+  background-color: white;
+
+}
+div{
+  box-shadow: 5px 5px 5px #888;
+  border-bottom: 20px;
+}
+h1{
+  background-color: blue;
+  color: white;
+  border-radius: 10px 10px 0 0;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+
+
+}
+</style>
+
+<body>
+  <div>
+    <h1>CONTACT US</h1>
+    <p>First Name:<br><input type="text"></input></p>
+    <p>Last Name:<br><input type="text"></input></p>
+    <p>Email Address:<br><input type="text"></input></p>
+    <p>Message:<br><textarea rows="4" cols="50"></textarea></p>
+    <form>
+      <p>Gender
+      <input type="radio" name="gender" value="male">male</input>
+      <input type="radio" name="gender" value="female">female</input>
+      <input type="radio" name="gender" value="undecided">I am not sure.</input><br>
+      </p>
+    </form>
+
+    <form action="http://www.google.com">
+      <input type="checkbox" name="" value="Bike">I'd like to receive updates from this site<br>
+      <input type="checkbox" name="" value="Car">I'd like to receive blabla...<br>
+
+    <button>Submit</button>
+</form>
+
+  </div>
+  <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+<script type="text/javascript" src="scripts/app.js"></script>
+</body>
